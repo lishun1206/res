@@ -1,0 +1,1 @@
+redis的全称是Remote Dictionary Server，redis本质上是一个键值对的内存数据库，他和memcached很像redis通过数据放在内存上操作的，然后通过异步放到硬盘上，所以不容易丢失，他读写速度非常快，每秒可以处理十万次读写，但是他容易受物理内存影响，所以局限于小数据的运算和操作，redis比memcached快很多，可以持久化，支持的类型也有很多，比如string list set hashes等，redis虽然方便但是基本上都用的linux版本，因为他比Windows版本稳定，不会出现兼容性问题，
